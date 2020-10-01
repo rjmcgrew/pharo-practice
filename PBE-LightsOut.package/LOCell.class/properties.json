@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SimpleSwitchMorph",
+	"category" : "PBE-LightsOut",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LOCell",
+	"type" : "normal"
+}
