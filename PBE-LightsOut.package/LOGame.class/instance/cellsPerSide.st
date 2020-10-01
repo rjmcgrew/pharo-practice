@@ -1,0 +1,3 @@
+initialization
+cellsPerSide
+	^ 10

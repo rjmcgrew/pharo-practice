@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "SimpleSwitchMorph",
+	"super" : "BorderedMorph",
 	"category" : "PBE-LightsOut",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"mouseAction"
+		"cells"
 	],
-	"name" : "LOCell",
+	"name" : "LOGame",
 	"type" : "normal"
 }
