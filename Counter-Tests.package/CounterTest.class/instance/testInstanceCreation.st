@@ -1,3 +1,3 @@
 tests
 testInstanceCreation
-	self assert: 3 equals: 3
+	self assert: Counter new count equals: 0
