@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ExercismTest",
+	"category" : "Exercise@Bowling",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bowlingCalculator"
+	],
+	"name" : "BowlingTest",
+	"type" : "normal"
+}
