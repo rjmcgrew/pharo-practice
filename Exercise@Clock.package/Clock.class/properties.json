@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Exercise@Clock",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"hour",
+		"minute"
+	],
+	"name" : "Clock",
+	"type" : "normal"
+}

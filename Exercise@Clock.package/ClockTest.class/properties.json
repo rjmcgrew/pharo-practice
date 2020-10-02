@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "ExercismTest",
+	"category" : "Exercise@Clock",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"clock1",
+		"clock2"
+	],
+	"name" : "ClockTest",
+	"type" : "normal"
+}
