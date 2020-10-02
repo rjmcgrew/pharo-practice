@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ExercismTest",
+	"category" : "Exercise@Acronym",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"acronymCalculator"
+	],
+	"name" : "AcronymTest",
+	"type" : "normal"
+}

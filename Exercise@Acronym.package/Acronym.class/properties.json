@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "RichardMcGrew 10/2/2020 11:19",
+	"super" : "Object",
+	"category" : "Exercise@Acronym",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Acronym",
+	"type" : "normal"
+}
