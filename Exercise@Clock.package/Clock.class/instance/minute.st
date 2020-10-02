@@ -1,0 +1,3 @@
+initialization
+minute
+	^ minute
