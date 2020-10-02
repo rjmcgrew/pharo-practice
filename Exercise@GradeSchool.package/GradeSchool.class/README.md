@@ -1,0 +1,4 @@
+# Grade School
+
+Given students' names along with the grade that they are in, create a roster
+for the school.

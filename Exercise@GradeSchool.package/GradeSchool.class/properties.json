@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "RichardMcGrew 10/2/2020 10:00",
+	"super" : "Object",
+	"category" : "Exercise@GradeSchool",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"students"
+	],
+	"name" : "GradeSchool",
+	"type" : "normal"
+}

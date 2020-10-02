@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ExercismTest",
+	"category" : "Exercise@GradeSchool",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"gradeSchoolCalculator"
+	],
+	"name" : "GradeSchoolTest",
+	"type" : "normal"
+}
