@@ -13,4 +13,7 @@ evaluateWord: aString
 	aString = 'drop'
 		ifTrue: [ ^ self drop ].
 	aString = 'swap'
-		ifTrue: [ ^ self swap ]
+		ifTrue: [ ^ self swap ].
+		aString = 'over'
+		ifTrue: [ ^ self over ].
+		
