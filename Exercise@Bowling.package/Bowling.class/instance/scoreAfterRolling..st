@@ -8,11 +8,11 @@ scoreAfterRolling: rolls
 	index := 1.
 	score := 0.
 	10
-		timesRepeat: [ (self isStrike: rolls and: index)
-				ifTrue: [ score := self strikeScoreForRolls: rolls index: index score: score.
+		timesRepeat: [ (self isStrike: rolls at: index)
+				ifTrue: [ score := self strikeScoreForRolls: rolls at: index currentScore: score.
 					index := index + 1 ]
-				ifFalse: [ score := (self isSpare: rolls and: index)
-						ifTrue: [ self spareScoreForRolls: rolls index: index score: score ]
-						ifFalse: [ self normalScoreForRolls: rolls index: index score: score ].
+				ifFalse: [ score := (self isSpare: rolls at: index)
+						ifTrue: [ self spareScoreForRolls: rolls at: index currentScore: score ]
+						ifFalse: [ self normalScoreForRolls: rolls at: index currentScore: score ].
 					index := index + 2 ] ].
 	^ score

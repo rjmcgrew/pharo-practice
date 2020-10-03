@@ -1,3 +1,3 @@
 scoring
-isStrike: rolls and: index
+isStrike: rolls at: index
 	^ (rolls at: index) = 10

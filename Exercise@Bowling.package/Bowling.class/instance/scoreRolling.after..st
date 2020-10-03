@@ -1,4 +1,4 @@
-as yet unclassified
+scoring
 scoreRolling: roll after: rolls
 	roll negative
 		ifTrue: [ self error: 'Negative roll is invalid' ].
