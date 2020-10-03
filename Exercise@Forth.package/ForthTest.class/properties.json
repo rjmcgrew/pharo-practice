@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ExercismTest",
+	"category" : "Exercise@Forth",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"forthCalculator"
+	],
+	"name" : "ForthTest",
+	"type" : "normal"
+}
