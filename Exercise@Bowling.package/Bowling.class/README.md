@@ -1,3 +1,3 @@
 # Bowling
 
-Score a bowling game.
+I score a bowling game.
