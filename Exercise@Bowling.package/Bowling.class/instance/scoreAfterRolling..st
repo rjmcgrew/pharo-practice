@@ -1,6 +1,10 @@
 scoring
 scoreAfterRolling: rolls
 	| index score |
+	rolls isEmpty
+		ifTrue: [ self error: 'Score cannot be taken until the end of the game' ].
+	rolls size < 12
+		ifTrue: [ self error: 'Score cannot be taken until the end of the game' ].
 	index := 1.
 	score := 0.
 	10
