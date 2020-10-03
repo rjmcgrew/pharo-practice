@@ -1,37 +1,16 @@
 operations
 evaluateWord: aString
-	| x y |
 	aString = '+'
-		ifTrue: [ self checkStack2.
-			y := stack pop.
-			x := stack pop.
-			^ stack push: x + y ].
+		ifTrue: [ ^ self add ].
 	aString = '-'
-		ifTrue: [ self checkStack2.
-			y := stack pop.
-			x := stack pop.
-			^ stack push: x - y ].
+		ifTrue: [ ^ self subtract ].
 	aString = '*'
-		ifTrue: [ self checkStack2.
-			y := stack pop.
-			x := stack pop.
-			^ stack push: x * y ].
+		ifTrue: [ ^ self multiply ].
 	aString = '/'
-		ifTrue: [ self checkStack2.
-			y := stack pop.
-			y = 0
-				ifTrue: [ self error: 'divide by zero' ].
-			x := stack pop.
-			^ stack push: x // y ].
+		ifTrue: [ ^ self divide ].
 	aString = 'dup'
-		ifTrue: [ self checkStack1.
-			^ stack push: stack top ].
+		ifTrue: [ ^ self dup ].
 	aString = 'drop'
-		ifTrue: [ self checkStack1.
-			^ stack pop ].
+		ifTrue: [ ^ self drop ].
 	aString = 'swap'
-		ifTrue: [ self checkStack2.
-			y := stack pop.
-			x := stack pop.
-			stack push: y.
-			^ stack push: x ]
+		ifTrue: [ ^ self swap ]
