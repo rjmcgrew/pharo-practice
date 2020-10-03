@@ -1,4 +1,4 @@
-scoring
+scoring - private
 strikeScoreForRolls: rolls at: index currentScore: score
 	(rolls size < (index + 2))
 		ifTrue: [ self incompleteGameError  ].

@@ -1,4 +1,4 @@
-scoring
+scoring - private
 checkIfPlausible: rolls
 	rolls isEmpty
 		ifTrue: [ self incompleteGameError ].
