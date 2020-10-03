@@ -1,4 +1,5 @@
 operations
-evaluateString: aString 
-	
-	stack push: 1; push: 2; push: 3; push: 4;  push: 5
+evaluateString: aString
+	| tokens |
+	tokens := aString substrings: ' '.
+	tokens do: [ :each | self evaluateNumber: each ]
