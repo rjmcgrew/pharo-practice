@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"stack"
+		"stack",
+		"dictionary"
 	],
 	"name" : "Forth",
 	"type" : "normal"
