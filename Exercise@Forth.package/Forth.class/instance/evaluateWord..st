@@ -8,12 +8,12 @@ evaluateWord: aString
 		ifTrue: [ ^ self multiply ].
 	aString = '/'
 		ifTrue: [ ^ self divide ].
-	aString = 'dup'
+	(aString sameAs: 'dup')
 		ifTrue: [ ^ self dup ].
-	aString = 'drop'
+	(aString sameAs: 'drop')
 		ifTrue: [ ^ self drop ].
-	aString = 'swap'
+	(aString sameAs: 'swap')
 		ifTrue: [ ^ self swap ].
-		aString = 'over'
+	(aString sameAs: 'over')
 		ifTrue: [ ^ self over ].
-		
+	self error: 'undefined operation'
