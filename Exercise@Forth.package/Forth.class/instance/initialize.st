@@ -11,3 +11,5 @@ initialize
 	dictionary at: 'drop' put: [ self drop  ].
 	dictionary at: 'swap' put: [ self swap  ].
 	dictionary at: 'over' put: [ self over ].
+	dictionary at: ';' put: [  ].
+	
