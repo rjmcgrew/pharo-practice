@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ExercismTest",
+	"category" : "Exercise@RobotSimulator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"robotSimulator"
+	],
+	"name" : "RobotSimulatorTest",
+	"type" : "normal"
+}

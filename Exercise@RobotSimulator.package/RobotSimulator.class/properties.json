@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Exercise@RobotSimulator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"direction",
+		"x",
+		"y"
+	],
+	"name" : "RobotSimulator",
+	"type" : "normal"
+}
