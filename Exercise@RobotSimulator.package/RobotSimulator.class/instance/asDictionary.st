@@ -6,7 +6,7 @@ asDictionary
 			'position'
 				->
 					(Dictionary new
-						add: 'x' -> x;
-						add: 'y' -> y;
+						add: 'x' -> position x;
+						add: 'y' -> position y;
 						yourself);
 		yourself

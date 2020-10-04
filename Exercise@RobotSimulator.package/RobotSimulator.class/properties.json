@@ -4,14 +4,14 @@
 	"category" : "Exercise@RobotSimulator",
 	"classinstvars" : [
 		"leftTranslations",
-		"rightTranslations"
+		"rightTranslations",
+		"directionPoints"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"direction",
-		"x",
-		"y"
+		"position"
 	],
 	"name" : "RobotSimulator",
 	"type" : "normal"

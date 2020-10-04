@@ -1,3 +1,3 @@
-class initialization
+accessing
 rightTranslations 
 	^ rightTranslations
