@@ -1,4 +1,4 @@
-operations
+converting
 asDictionary
 	^ Dictionary new
 		add: 'direction' -> direction;

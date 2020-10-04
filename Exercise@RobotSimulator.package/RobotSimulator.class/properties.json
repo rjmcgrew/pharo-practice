@@ -5,13 +5,15 @@
 	"classinstvars" : [
 		"leftTranslations",
 		"rightTranslations",
-		"directionPoints"
+		"directionPoints",
+		"instructions"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"direction",
-		"position"
+		"position",
+		"instructions"
 	],
 	"name" : "RobotSimulator",
 	"type" : "normal"
