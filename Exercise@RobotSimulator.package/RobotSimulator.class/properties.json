@@ -5,8 +5,7 @@
 	"classinstvars" : [
 		"leftTranslations",
 		"rightTranslations",
-		"directionPoints",
-		"instructions"
+		"directionPoints"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],
