@@ -1,8 +1,11 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "RichardMcGrew 10/4/2020 15:14",
 	"super" : "Object",
 	"category" : "Exercise@RobotSimulator",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"leftTranslations",
+		"rightTranslations"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [

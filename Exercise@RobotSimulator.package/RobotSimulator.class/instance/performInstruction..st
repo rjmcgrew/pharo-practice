@@ -1,5 +1,5 @@
 operations
-sendInstruction: aCharacter
+performInstruction: aCharacter
 	aCharacter = $R
 		ifTrue: [ ^ self turnRight ].
 	aCharacter = $L
